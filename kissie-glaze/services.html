@@ -1,157 +1,321 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Services — Kissie Glaze | Cakes, Pastries &amp; Flowers</title>
-<meta name="description" content="Customized cakes, French pastries, dessert &amp; grazing carts, event styling, and fresh florals by Kissie Glaze. Custom quotes for every occasion.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Nunito+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-
-<!-- ===== HEADER ===== -->
-<header class="site-header">
-  <nav class="nav">
-    <a class="nav__logo" href="index.html"><img src="assets/img/logo.png" alt="Kissie Glaze"></a>
-    <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
-    <div class="nav__links">
-      <a class="nav__link" href="index.html">Home</a>
-      <a class="nav__link" href="about.html">About</a>
-      <a class="nav__link is-active" href="services.html">Services</a>
-      <a class="nav__link" href="gallery.html">Gallery</a>
-      <a class="nav__link" href="contact.html">Contact</a>
-      <a class="btn btn-primary btn-sm" href="https://m.me/kissieglazecakes" target="_blank" rel="noopener">Order Now</a>
-    </div>
-  </nav>
-</header>
-
-<main>
-  <!-- ===== PAGE HEAD ===== -->
-  <section class="page-head page-head--l">
-    <div class="kicker">What We Create</div>
-    <h1 class="h-page">Cakes, pastries &amp; blooms for every occasion</h1>
-    <p class="lead">Everything we make is custom. Browse what we offer, then message us for a personalized quote.</p>
-  </section>
-
-  <!-- ===== SERVICES GRID ===== -->
-  <section style="padding:64px 24px 40px;">
-    <div class="container">
-      <div class="grid grid--svc">
-        <article class="svc">
-          <div class="svc__no">01</div>
-          <h3>Customized Cakes</h3>
-          <p>One-of-a-kind cakes designed around your theme, colors, and story — from dainty bento cakes to grand tiered centerpieces.</p>
-        </article>
-        <article class="svc">
-          <div class="svc__no">02</div>
-          <h3>French Pastries</h3>
-          <p>Delicate, buttery classics baked fresh — the little luxuries that make any ordinary day feel special.</p>
-        </article>
-        <article class="svc">
-          <div class="svc__no">03</div>
-          <h3>Curated Dessert Carts</h3>
-          <p>A beautifully styled cart of sweets and treats, arranged for weddings, debuts, and parties.</p>
-        </article>
-        <article class="svc">
-          <div class="svc__no">04</div>
-          <h3>Curated Grazing Carts</h3>
-          <p>Abundant grazing spreads of savories, cheeses, and bites — a feast for both the eyes and the table.</p>
-        </article>
-        <article class="svc">
-          <div class="svc__no">05</div>
-          <h3>Event Styling</h3>
-          <p>Thoughtful styling that ties your dessert table and space into one cohesive, picture-perfect moment.</p>
-        </article>
-        <article class="svc">
-          <div class="svc__no">06</div>
-          <h3>Flower Arrangements</h3>
-          <p>Fresh, seasonal blooms arranged with an artist's eye for your celebration or venue.</p>
-        </article>
-        <article class="svc">
-          <div class="svc__no">07</div>
-          <h3>Flower Bouquets</h3>
-          <p>Hand-tied bouquets for birthdays, anniversaries, and just-because moments — pairs beautifully with a cake.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== QUOTE BAND ===== -->
-  <section style="padding:24px 24px 20px;">
-    <div class="container">
-      <div class="quote-band">
-        <div style="flex:1 1 360px;">
-          <h3>Pricing is custom — just like your cake</h3>
-          <p>Costs depend on size, design, and ingredients. Send us your details and we'll prepare a quote that fits your celebration and budget.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services — Kissie Glaze | Cakes, Pastries &amp; Flowers</title>
+    <meta
+      name="description"
+      content="Customized cakes, French pastries, dessert &amp; grazing carts, event styling, and fresh florals by Kissie Glaze. Custom quotes for every occasion."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Nunito+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+      <nav class="nav">
+        <a class="nav__logo" href="index.html"
+          ><img src="assets/img/logo.png" alt="Kissie Glaze"
+        /></a>
+        <button class="nav__toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav__links">
+          <a class="nav__link" href="index.html">Home</a>
+          <a class="nav__link" href="about.html">About</a>
+          <a class="nav__link is-active" href="services.html">Services</a>
+          <a class="nav__link" href="gallery.html">Gallery</a>
+          <a class="nav__link" href="contact.html">Contact</a>
+          <a
+            class="btn btn-primary btn-sm"
+            href="https://m.me/kissieglazecakes"
+            target="_blank"
+            rel="noopener"
+            >Order Now</a
+          >
         </div>
-        <a class="btn btn-primary" href="https://m.me/kissieglazecakes" target="_blank" rel="noopener">Request a Quote</a>
-      </div>
-    </div>
-  </section>
+      </nav>
+    </header>
 
-  <!-- ===== HOW TO ORDER ===== -->
-  <section style="padding:72px 24px 96px;">
-    <div class="container">
-      <h2 class="h-sub center" style="margin-bottom:50px;">How to order</h2>
-      <div class="steps">
-        <div class="step">
-          <div class="step__n">1</div>
-          <h3>Send a message</h3>
-          <p>Tell us your event, date, theme, and budget on Facebook or Instagram.</p>
-        </div>
-        <div class="step">
-          <div class="step__n">2</div>
-          <h3>Get your quote</h3>
-          <p>We'll suggest designs and flavors, then send a custom quote.</p>
-        </div>
-        <div class="step">
-          <div class="step__n">3</div>
-          <h3>Reserve your date</h3>
-          <p>A deposit secures your slot in our calendar.</p>
-        </div>
-        <div class="step">
-          <div class="step__n">4</div>
-          <h3>Pickup or delivery</h3>
-          <p>Collect in Bacoor, Cavite, or have it delivered nearby.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
+    <main>
+      <!-- ===== GSD Watermark ===== -->
+      <style>
+        .gsd-wm-badge {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 9999;
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          background: #1e1e2e;
+          border: 1px solid rgba(255, 255, 255, 0.12);
+          border-radius: 999px;
+          padding: 13px 22px 13px 14px;
+          text-decoration: none;
+          box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+          font-family: "Outfit", system-ui, sans-serif;
+          transition:
+            transform 0.15s ease,
+            box-shadow 0.15s ease;
+        }
+        .gsd-wm-badge:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 6px 22px rgba(0, 0, 0, 0.32);
+        }
+        .gsd-wm-badge img {
+          height: 20px;
+          width: auto;
+          display: block;
+        }
+        .gsd-wm-badge__divider {
+          width: 1px;
+          height: 20px;
+          background: rgba(255, 255, 255, 0.18);
+        }
+        .gsd-wm-badge__text {
+          font-size: 15px;
+          font-weight: 600;
+          color: #ff5c00;
+          white-space: nowrap;
+        }
 
-<!-- ===== FOOTER ===== -->
-<footer class="site-footer">
-  <div class="footer__top">
-    <div class="footer__brand">
-      <img src="assets/img/logo.png" alt="Kissie Glaze">
-      <p>Handcrafted cakes, French pastries, and fresh florals — made with love in Bacoor, Cavite.</p>
-    </div>
-    <div class="footer__cols">
-      <div class="footer__col">
-        <h4>Explore</h4>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <div class="footer__col">
-        <h4>Follow</h4>
-        <a href="https://www.facebook.com/kissieglazecakes" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://www.instagram.com/glacage_ph" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://m.me/kissieglazecakes" target="_blank" rel="noopener">Order via Messenger</a>
-      </div>
-    </div>
-  </div>
-  <div class="footer__bar">
-    <span>© 2026 Kissie Glaze · Cakes &amp; Flowers</span>
-    <span>Bacoor, Cavite, Philippines</span>
-  </div>
-</footer>
+        @media (max-width: 480px) {
+          .gsd-wm-badge {
+            bottom: 14px;
+            right: 14px;
+            padding: 11px 18px 11px 12px;
+            gap: 10px;
+          }
+          .gsd-wm-badge img {
+            height: 17px;
+          }
+          .gsd-wm-badge__divider {
+            height: 17px;
+          }
+          .gsd-wm-badge__text {
+            font-size: 13px;
+          }
+        }
+      </style>
 
-<script src="assets/js/main.js"></script>
-</body>
+      <a
+        href="https://getshtdonehq.com"
+        class="gsd-wm-badge"
+        target="_blank"
+        rel="noopener"
+        aria-label="Built by GetSh*tDone HQ — get a free website for your business"
+      >
+        <img src="assets/img/logo-orange.png" alt="GetSh*tDone HQ" />
+        <span class="gsd-wm-badge__divider"></span>
+        <span class="gsd-wm-badge__text">Want this for your biz? →</span>
+      </a>
+
+      <!-- ===== PAGE HEAD ===== -->
+      <section class="page-head page-head--l">
+        <div class="kicker">What We Create</div>
+        <h1 class="h-page">Cakes, pastries &amp; blooms for every occasion</h1>
+        <p class="lead">
+          Everything we make is custom. Browse what we offer, then message us
+          for a personalized quote.
+        </p>
+      </section>
+
+      <!-- ===== SERVICES GRID ===== -->
+      <section style="padding: 64px 24px 40px">
+        <div class="container">
+          <div class="grid grid--svc">
+            <article class="svc">
+              <div class="svc__no">01</div>
+              <h3>Customized Cakes</h3>
+              <p>
+                One-of-a-kind cakes designed around your theme, colors, and
+                story — from dainty bento cakes to grand tiered centerpieces.
+              </p>
+            </article>
+            <article class="svc">
+              <div class="svc__no">02</div>
+              <h3>French Pastries</h3>
+              <p>
+                Delicate, buttery classics baked fresh — the little luxuries
+                that make any ordinary day feel special.
+              </p>
+            </article>
+            <article class="svc">
+              <div class="svc__no">03</div>
+              <h3>Curated Dessert Carts</h3>
+              <p>
+                A beautifully styled cart of sweets and treats, arranged for
+                weddings, debuts, and parties.
+              </p>
+            </article>
+            <article class="svc">
+              <div class="svc__no">04</div>
+              <h3>Curated Grazing Carts</h3>
+              <p>
+                Abundant grazing spreads of savories, cheeses, and bites — a
+                feast for both the eyes and the table.
+              </p>
+            </article>
+            <article class="svc">
+              <div class="svc__no">05</div>
+              <h3>Event Styling</h3>
+              <p>
+                Thoughtful styling that ties your dessert table and space into
+                one cohesive, picture-perfect moment.
+              </p>
+            </article>
+            <article class="svc">
+              <div class="svc__no">06</div>
+              <h3>Flower Arrangements</h3>
+              <p>
+                Fresh, seasonal blooms arranged with an artist's eye for your
+                celebration or venue.
+              </p>
+            </article>
+            <article class="svc">
+              <div class="svc__no">07</div>
+              <h3>Flower Bouquets</h3>
+              <p>
+                Hand-tied bouquets for birthdays, anniversaries, and
+                just-because moments — pairs beautifully with a cake.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== QUOTE BAND ===== -->
+      <section style="padding: 24px 24px 20px">
+        <div class="container">
+          <div class="quote-band">
+            <div style="flex: 1 1 360px">
+              <h3>Pricing is custom — just like your cake</h3>
+              <p>
+                Costs depend on size, design, and ingredients. Send us your
+                details and we'll prepare a quote that fits your celebration and
+                budget.
+              </p>
+            </div>
+            <a
+              class="btn btn-primary"
+              href="https://m.me/kissieglazecakes"
+              target="_blank"
+              rel="noopener"
+              >Request a Quote</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== HOW TO ORDER ===== -->
+      <section style="padding: 72px 24px 96px">
+        <div class="container">
+          <h2 class="h-sub center" style="margin-bottom: 50px">How to order</h2>
+          <div class="steps">
+            <div class="step">
+              <div class="step__n">1</div>
+              <h3>Send a message</h3>
+              <p>
+                Tell us your event, date, theme, and budget on Facebook or
+                Instagram.
+              </p>
+            </div>
+            <div class="step">
+              <div class="step__n">2</div>
+              <h3>Get your quote</h3>
+              <p>
+                We'll suggest designs and flavors, then send a custom quote.
+              </p>
+            </div>
+            <div class="step">
+              <div class="step__n">3</div>
+              <h3>Reserve your date</h3>
+              <p>A deposit secures your slot in our calendar.</p>
+            </div>
+            <div class="step">
+              <div class="step__n">4</div>
+              <h3>Pickup or delivery</h3>
+              <p>Collect in Bacoor, Cavite, or have it delivered nearby.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="footer__top">
+        <p
+          style="
+            font-family: &quot;Outfit&quot;, system-ui, sans-serif;
+            font-size: 15px;
+            color: rgba(210, 208, 208, 0.45);
+            text-align: center;
+            margin-top: 8px;
+          "
+        >
+          This is a complimentary website demo by
+          <a
+            href="https://getshtdonehq.com"
+            target="_blank"
+            rel="noopener"
+            style="color: #ff5c00; text-decoration: underline"
+            >GetSh*tDone HQ</a
+          >. Full ownership, custom domain, and ongoing support available with
+          our website package.
+        </p>
+        <div class="footer__brand">
+          <img src="assets/img/logo.png" alt="Kissie Glaze" />
+          <p>
+            Handcrafted cakes, French pastries, and fresh florals — made with
+            love in Bacoor, Cavite.
+          </p>
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h4>Explore</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="footer__col">
+            <h4>Follow</h4>
+            <a
+              href="https://www.facebook.com/kissieglazecakes"
+              target="_blank"
+              rel="noopener"
+              >Facebook</a
+            >
+            <a
+              href="https://www.instagram.com/glacage_ph"
+              target="_blank"
+              rel="noopener"
+              >Instagram</a
+            >
+            <a
+              href="https://m.me/kissieglazecakes"
+              target="_blank"
+              rel="noopener"
+              >Order via Messenger</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <span>© 2026 Kissie Glaze · Cakes &amp; Flowers</span>
+        <span>Bacoor, Cavite, Philippines</span>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
